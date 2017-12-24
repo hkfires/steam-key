@@ -18,7 +18,7 @@
 <body>
     <div class="container">
         <div class="header clearfix">
-            <a class="text-muted site-title" href="https://hkfires.online" target="_blank" align="center">
+            <a class="text-muted site-title" href="https://hkfires.online" target="_blank">
                 <span class="glyphicon glyphicon-cloud"></span> Steam 云激活
             </a>
         </div>
@@ -107,12 +107,10 @@
         </from>
 
         <footer class="footer">
-            <span class="copyright">
-                &copy; 2017 <span class="glyphicon glyphicon-heart"></span> Makazeu&nbsp;
-            </span>
+
             {{#if serverBy}}
                 <span style="margin:auto">
-                    &nbsp;<a href="http://steamcommunity.com/id/hkfires" target="_blank">该激活服务器由{{serverBy}}部署提供</a>&nbsp;
+                    <a href="http://steamcommunity.com/id/hkfires" target="_blank">该激活服务器由{{serverBy}}部署提供</a>&nbsp;&nbsp;&nbsp;&nbsp;
                 </span>&nbsp;
             {{else}}
                 <span class="copyright">
@@ -124,6 +122,9 @@
             {{/if}}
             <span class="version">
                 {{appVersion}} on Node.js {{nodeVersion}}
+            </span>
+            <span class="copyright">
+                &copy; 2017 <span class="glyphicon glyphicon-heart"></span> Makazeu&nbsp;
             </span>
         </footer>
     </div> <!-- /container -->
