@@ -1,0 +1,7 @@
+{
+    "id":   "steam",
+    "name": "XX激活服务器",
+    "log_enabled": false,
+    "post_address": "https://hkfires.online",
+    "serverBy": "hKFirEs"
+}
