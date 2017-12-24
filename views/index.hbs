@@ -107,10 +107,12 @@
         </from>
 
         <footer class="footer">
-
+            <span class="version">
+                {{appVersion}} on Node.js {{nodeVersion}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
             {{#if serverBy}}
                 <span style="margin:auto">
-                    <a href="http://steamcommunity.com/id/hkfires" target="_blank">该激活服务器由{{serverBy}}部署提供</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="http://steamcommunity.com/id/hkfires" target="_blank">该激活服务器由{{serverBy}}部署提供</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </span>&nbsp;
             {{else}}
                 <span class="copyright">
@@ -120,11 +122,8 @@
                     <a href="http://steamcommunity.com/id/hkfires" target="_blank">我的Steam</a>&nbsp;
                 </span>
             {{/if}}
-            <span class="version">
-                {{appVersion}} on Node.js {{nodeVersion}}
-            </span>
             <span class="copyright">
-                &copy; 2017 <span class="glyphicon glyphicon-heart"></span> Makazeu&nbsp;
+                &copy; 2017 <span class="glyphicon glyphicon-heart"></span> Makazeu
             </span>
         </footer>
     </div> <!-- /container -->
